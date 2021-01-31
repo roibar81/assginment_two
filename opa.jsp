@@ -6,6 +6,6 @@
 </head>
 <% SimpleDateFormat sdf=new SimpleDateFormat("MM/dd/yyyy"); %>
 <body>
-Welcome to Tomcat! Today is <%= sdf.format(new Date()) %></h1>
+<h1>Welcome to Tomcat! Today is <%= sdf.format(new Date()) %></h1>
 </body>
 </html>
